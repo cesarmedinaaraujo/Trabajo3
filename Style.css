@@ -35,7 +35,7 @@
 
 
 header{
-    background-color: var(--secondary);
+    background-color: var(--bg-white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,6 +128,7 @@ main{
     text-align: center;
     border-radius: 8px;
     font-size: 14px;
+    margin: 20px;
 }
 
 
@@ -139,72 +140,13 @@ main{
     flex-direction: column;
     border-radius: 15px;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
+    
 }
-
-.hero-card-info{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.hero-card-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.hero-card-top h3{
-    font-size: 16px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.hero-card-top span{
-    background-color: var(--primary);
-    border-radius: 10px;
-    width: 50px;
-    padding: 3px 0;
+.detalle{
+    background-color: rgb(12, 12, 12);
+    color: #ffffff;
     text-align: center;
+    padding: 100px 1000px 100px 1000px;
+    
 }
-
-.hero-card-bottom{
-    display: flex;
-    justify-content: space-between ;
-}
-
-.hero-card-creator{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.hero-card-creator img{
-    width: 40px;
-    height: 40px;
-}
-
-.creator-info span, .hero-card-price p{
-    font-size: 12px;
-    font-weight: 300;
-    color: var(--text-gray);
-}
-
-.creator-info p{
-    font-size: 14px;
-}
-
-.hero-card-price{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.hero-card-price span{
-    font-weight: 800;
-}
-
